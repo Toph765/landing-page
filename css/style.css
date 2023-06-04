@@ -9,6 +9,10 @@ body {
 
 .top {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 180px 100px;
+    gap: 100px;
 }
 
 .header {
@@ -20,25 +24,22 @@ body {
     font-size: 24px;
     font-weight:700;
     color: #F9FAF8;
-    padding: 8px 16px;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
     display: flex;
-    gap: 8px;
-    padding: 8px 16px;
+    gap: 32px;
 }
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
-    padding: 52px 16px;
+    justify-content: space-between;
 }
 
 .hero-body {
-    width: 600px;
+    width: 400px;
 }
 
 a,
@@ -69,10 +70,10 @@ a {
 }
 
 .hero-img {
-    width: 600px;
-    height: 300px;
-    background: url("../img/cement-stairs.jpg") 50% 65%;
-    background-size: 600px;
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .information {
@@ -81,7 +82,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 52px 16px;
+    padding: 52px 200px 100px;
     text-align: center;
 }
 
@@ -94,11 +95,11 @@ a {
     justify-content: space-between;
 }
 
-img {
+.information-img {
     border-radius: 8px;
     border: 4px solid #3882F6;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     object-position: 50% 50%;
     flex-shrink: 0;
@@ -107,7 +108,7 @@ img {
 
 .quotation {
     background-color: #E5E7EB;
-    padding: 52px 16px;
+    padding: 52px 200px 100px;
 }
 
 .quote {
