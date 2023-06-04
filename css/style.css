@@ -52,3 +52,47 @@ a {
     background-size: 600px;
 }
 
+.information {
+    color: #1F2937;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-img1 {
+    background: url("../img/domed-building.jpg") 50% 20%;
+    background-size: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.information-img2 {
+    background: url("../img/glass-building.jpg") 50% 80%;
+    background-size: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.information-img3 {
+    background: url("../img/houses.jpg") 50% 20%;
+    background-size: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.information-img4 {
+    background: url("../img/wooden-stairs.jpg") 50% 40%;
+    background-size: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
